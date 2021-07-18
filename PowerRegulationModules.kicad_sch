@@ -1,0 +1,118 @@
+(kicad_sch (version 20210126) (generator eeschema)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 26.67 21.59) (size 100.33 72.39)
+    (stroke (width 0.001) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 24394226-c130-4680-9892-2c991e5be684)
+    (property "Sheet name" "VCC_to_5V_regulator" (id 0) (at 26.67 20.9541 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "1stregulator.kicad_sch" (id 1) (at 26.67 94.4889 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/24394226-c130-4680-9892-2c991e5be684/" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/24394226-c130-4680-9892-2c991e5be684/d8abd279-2229-4287-92f5-976f1939207b"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/3f5af89b-acc4-4e3e-b14e-19061ffc08a5"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/e9878dab-bb3a-462a-aeeb-46909727918b"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/16f9c9f8-d7d1-4264-a688-5c5d011709ae"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/335ec169-4fb0-4818-91e6-365ccd1762bc"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/f2d1ca29-c275-463b-a9dd-9c7541876844"
+      (reference "#PWR06") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/8b1c57cd-fcdf-45c6-b378-25b20fd81fc3"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/dac0e27c-12bd-49dc-89bd-e16f2714583e"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/9f7a5dd7-fd16-41a3-ad87-0aa745a1cdd6"
+      (reference "#PWR09") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/5ffd2bd9-d42e-4f3b-92bf-f048c70a8002"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/3d97887e-1fce-48ee-beeb-fb6fcb033fbb"
+      (reference "#PWR011") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/187debf4-7856-454a-9883-f976f0ed87a9"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/d27477bb-db53-4608-97ab-3a4502f31b7a"
+      (reference "#PWR013") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/0eec2d0f-9aee-44af-be92-1051e68fd09a"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/1a8a127c-2d06-4258-8ecb-c4e3aaed75c1"
+      (reference "#PWR0101") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/3c57ef97-e6ff-4ef0-b4dc-a8f2f4b235ee"
+      (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/dd83b353-3ff2-418e-b0e1-6457cdf05ae4"
+      (reference "C2") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/7bdde930-920c-438f-8665-1c345533cff2"
+      (reference "C3") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/ec59ccfc-9620-485d-9ffb-df4729507a70"
+      (reference "C4") (unit 1) (value "220u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W_Pad2.25x2.55mm_HandSolder")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/0e6f3218-e2ae-4372-8601-cf6608181f64"
+      (reference "D1") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-323F")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/18c6df30-d03a-4fbe-8e7b-d9c306a4d947"
+      (reference "F1") (unit 1) (value "500mA") (footprint "Fuse:Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/eb03a910-cc64-4f08-b7b8-07a3b05708d8"
+      (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/6546113d-af70-4744-87b3-f4ec0e3d618e"
+      (reference "J2") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/daf4ac94-dc23-4654-867c-65e00e0ec117"
+      (reference "L1") (unit 1) (value "+47u") (footprint "Inductor_SMD:L_12x12mm_H8mm")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/9dff4e98-7f3f-4b23-a371-3393b271a1e3"
+      (reference "Q1") (unit 1) (value "AO3401A") (footprint "Package_TO_SOT_SMD:SC-59_Handsoldering")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/1e8725fc-8c09-458f-ae46-0b706f40e99a"
+      (reference "R1") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/f6eba0be-5f39-4071-acc6-9b8fa7bb3cf9"
+      (reference "R2") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/e629fa97-bafc-496b-8057-85cde4902d15"
+      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/fe9d4d53-2257-4275-b22a-0b0612c2c5a5"
+      (reference "R4") (unit 1) (value "3k3") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/24394226-c130-4680-9892-2c991e5be684/eddea614-7050-4fd1-a505-c5258bf44f58"
+      (reference "U1") (unit 1) (value "TPS5430DDA") (footprint "Package_SO:TI_SO-PowerPAD-8_ThermalVias")
+    )
+  )
+)
